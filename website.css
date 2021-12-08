@@ -41,11 +41,11 @@ position: relative;
   cursor: pointer;
 }
 .btn :hover{
-  border: 2px solid rgba(168, 132, 99, 0.815) ;
+  border: 2px solid ;
   background: turquoise;
   transition: 0.5s;
   display: inline-block;
-  background:rgba(4, 182, 182, 0.404);
+ 
   position: relative;
   cursor: pointer;
 
@@ -59,6 +59,12 @@ footer {
   color: navy;
   padding: 3%;
   background-color: rgba(168, 132, 99, 0.815);
+}
+.about-image {
+  width: 10%;
+  height: 10%;
+  padding: 10px;
+  margin: 10px
 }
 
 nav img {
