@@ -135,32 +135,40 @@ nav .fa {
 
   p {
     text-align: center;
-    font-size: x-large;-
+    font-size: x-large;
     padding: 1%;
     margin: 1%;
     color: rgb(91, 10, 138);
   }
   .wrapper ul li {
     display: block;
+    color: grey;
     padding: 5px;
     font-size: 25px;
+  }
+  
+  .wrapper .fa {
+    display: block;
+    color: black;
+    margin: 10px;
+    font-size: 22px;
+    text-align: right;
+    padding: 5px;
+    cursor: pointer;
+
   }
   .wrapper {
     position: absolute;
     background: rgba(144, 224, 248, 0.836);
-    height: 25vh;
+    height: 35vh;
     z-index: 2;
     text-align: left;
     top: 0;
     right: 0;
     width: 200px;
   }
-  nav .fa {
-    display: block;
-    color: grey;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
+  .wrapper ul {
+padding: 20px;
   }
 }
 /*-------------------------------------------------------About-------------------------------------------------*/
