@@ -25,7 +25,7 @@
   }
 
   nav li a:hover { 
-    background-color: palevioletred;
+    background-color: rgba(64, 224, 208, 0.774);
     color: white;
   }
   
@@ -38,7 +38,8 @@
     text-decoration: none;
     font-size: large;
     font-weight: 700;
-    padding: 15.5px;
+    padding: 12px;
+    border-radius: 9px;
   }
   
   li {
@@ -92,3 +93,93 @@
       margin: 0 auto;
     }
   }
+
+  /*--------------------------NAV-----------------------------------------*/
+  .banner {
+    position: relative;
+    }
+    .wrapper1 {
+      flex: 1;
+      text-align: center;
+       }
+    .wrapper1 ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 2%;
+      
+    }
+    .wrapper1 ul li a {
+      color: rgba(158, 45, 68, 0.842);
+      text-decoration: none;
+      font-size: 25px;
+     
+    }
+    .wrapper1 ul li ::after {
+      content: '';
+      width: 0;
+      height: 2px;
+      display: block;
+      font-size: large;
+      background: turquoise;
+      margin: auto;
+      transition: 0.5s;
+    }
+    
+    .wrapper1 ul li :hover{
+      width: 100%;
+      content: '';
+      height: 2px;
+      display: block;
+      background: aquamarine;
+      margin: auto;
+    }
+    
+    .item1 {
+      background: lightslategray;
+    }
+    .container1 {
+      display: flex;
+      text-align: center;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+    /*----------------------------------------MAIN----------------------------------------------*/
+    p {
+      text-align: center;
+      font-size: xx-large;
+      padding: 1%;
+      margin: 1%;
+      color: rgb(91, 10, 138);
+    }
+    footer p {
+      text-align: center;
+      color: navy;
+      font-size: medium;
+      padding: 0;
+      margin: 0;
+    }
+    footer {
+      color: navy;
+      padding: 3%;
+      background-color: rgba(168, 132, 99, 0.486);
+      margin-top: 2;
+    }
+
+    body {
+      background-image:  url(images/bgwebsite-min.jpg);
+     }
+    header {
+      width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
