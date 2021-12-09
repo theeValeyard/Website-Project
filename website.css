@@ -147,7 +147,7 @@ nav .fa {
     font-size: 25px;
   }
   
-  .wrapper .fa {
+  nav .fa {
     display: block;
     color: black;
     margin: 10px;
@@ -155,7 +155,6 @@ nav .fa {
     text-align: right;
     padding: 5px;
     cursor: pointer;
-
   }
   .wrapper {
     position: absolute;
@@ -164,7 +163,7 @@ nav .fa {
     z-index: 2;
     text-align: left;
     top: 0;
-    right: 0;
+    right: -200px;
     width: 200px;
   }
   .wrapper ul {
