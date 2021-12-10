@@ -198,8 +198,42 @@
     }
     .item2 {
       font-size: large;
+      font-family: 'Nunito', sans-serif;
     }
-    
+
+       /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    nav .menu-label {
+      display: none;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    nav ul li {
+      padding-right: 8px;
+    }
+  
+    nav .toggle {
+      display: none;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    nav ul,
+    main {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  /*--------------------------------------------------------Blog------------------------------------------------------------*/
+  h1 {
+    text-align: center;
+  }
+
     
     
     
