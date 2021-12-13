@@ -239,6 +239,7 @@
   }
   .box {
     display: flex;
+    flex-direction: column;
   }
   .item4 {
     display: flex;
