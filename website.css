@@ -230,9 +230,122 @@
     }
   }
   /*--------------------------------------------------------Blog------------------------------------------------------------*/
+  body.blog {
+  margin: 0;
+  padding: 0;
+  }
   h1 {
     text-align: center;
   }
+
+/*------------------------------------------------CONTACT-----------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+/* ===============
+   TYPOGRAPHY
+   =============== */
+
+body.contact {
+  font-family: sans-serif;
+}
+
+/* ===============
+   BUTTONS
+   =============== */
+
+button[type="submit"] {
+  color: white;
+  background-color: #0d235efd;
+  padding: 12px 20px;
+  border: 1px solid #414241;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+input[type="submit"] {
+  background-color: #6b8891f3;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #494b49;
+  border-radius: 7.5px;
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+}
+
+input[type="submit"]:hover {
+  background-color: navy;
+}
+
+
+/* ===============
+   STRUCTURE
+   =============== */
+
+.wrapper-form {
+  border-radius: 7px;
+  background-color: rgba(163, 163, 146, 0.664);
+  padding: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-around;
+  margin-top:10px ;
+}
+
+/* ===============
+   FORM CONTROLS
+   =============== */
+
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+input[type="checkbox"] {
+width: 20px;
+height: 20px;
+}
+
+textarea {
+  font-family: sans-serif;
+}
+
+
+.label-required {
+  font-size: 0.8rem;
+  color: red;
+}
 
     
     
